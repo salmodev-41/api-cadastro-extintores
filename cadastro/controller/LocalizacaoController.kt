@@ -8,7 +8,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 import org.springframework.web.util.UriComponentsBuilder
 import com.example.cadastro.service.ExtintoresLocalizacaoService
-//projeto pronto, so revisar e alterar os valores das variaveis dentro dos models, forms, views e mappers(deixar todos os valores iguais, pra compilar de maneira correta)
+
 @RestController
 @RequestMapping("/localizacoes")
 class LocalizacaoController(
